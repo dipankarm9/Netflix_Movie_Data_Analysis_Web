@@ -14,7 +14,7 @@ hide_streamlit_style = """
         header, .stActionButton, .st-emotion-cache-18ni7ap, .st-emotion-cache-1v0mbdj {
             visibility: hidden;
         }
-        ._container_gzau3_1 _viewerBadge_nim44_23{
+        ._container_gzau3_1{
             visibility: hidden;
         }
     </style>
