@@ -14,8 +14,8 @@ hide_streamlit_style = """
         header, .stActionButton, .st-emotion-cache-18ni7ap, .st-emotion-cache-1v0mbdj {
             visibility: hidden;
         }
-        footer, ._terminalContainer_rix23_11{
-            visibility: hidden!;
+        ._terminalContainer_rix23_11{
+            visibility: hidden;
         }
     </style>
 """
