@@ -14,6 +14,9 @@ hide_streamlit_style = """
         header, .stActionButton, .st-emotion-cache-18ni7ap, .st-emotion-cache-1v0mbdj {
             visibility: hidden;
         }
+        footer, ._terminalResizable_rix23_1{
+            visibility: hidden;
+        }
     </style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
