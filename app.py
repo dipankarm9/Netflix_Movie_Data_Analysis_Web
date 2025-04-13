@@ -16,7 +16,7 @@ hide_streamlit_style = """
         }
     </style>
 """
-st.markdown(hide_streamlit_style)
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Title Section
 st.markdown("<h1 style='text-align: center; color: #e50914;'>🎬 Netflix Movie Data Analysis Dashboard</h1>", unsafe_allow_html=True)
