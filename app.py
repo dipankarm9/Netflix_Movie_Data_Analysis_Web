@@ -7,6 +7,24 @@ import matplotlib.pyplot as plt
 # Page configuration
 st.set_page_config(page_title="🎬 Netflix Data Explorer", layout="wide", initial_sidebar_state="expanded")
 
+# 🔒 Hide top-right menu & bottom-right "Manage app"
+hide_streamlit_style = """
+    <style>
+        /* Hide Streamlit's top-right hamburger menu and Share button */
+        header, .stActionButton, .st-emotion-cache-18ni7ap, .st-emotion-cache-1v0mbdj {
+            visibility: hidden;
+        }
+        /* Hide footer and "Manage app" floating button */
+        #MainMenu, footer {
+            visibility: hidden;
+        }
+        .st-emotion-cache-13ejsyy {
+            display: none;
+        }
+    </style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 # Title Section
 st.markdown("<h1 style='text-align: center; color: #e50914;'>🎬 Netflix Movie Data Analysis Dashboard</h1>", unsafe_allow_html=True)
 st.markdown("---")
