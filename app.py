@@ -15,7 +15,7 @@ hide_streamlit_style = """
             visibility: hidden;
         }
         /* Hide footer and "Manage app" floating button */
-        #MainMenu, footer {
+        ._terminalButton_rix23_138 {
             visibility: hidden;
         }
         .st-emotion-cache-13ejsyy {
